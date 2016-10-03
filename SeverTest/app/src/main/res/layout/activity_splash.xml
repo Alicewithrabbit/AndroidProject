@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/top_bg_color"
+    >
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/now_loading"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/nowloadingtx"
+        android:layout_below="@+id/op"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:background="@drawable/kaitou"
+
+        android:id="@+id/op"
+
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
